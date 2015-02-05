@@ -6,7 +6,7 @@
  */
 int main( void ){
   int qty;
-  printf( "Please nter pint qty of beer consumption: ");
+  printf( "How many pint of beer did you consume? : ");
   qty = getchar();
 
   bool result = beer( qty );

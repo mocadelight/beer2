@@ -3,5 +3,5 @@
 
 bool beer( int pintqty )
 {
-  return ( pintqty > 0 ? true : false );
+  return ( pintqty == '0' ? false : true );
 }
