@@ -1,16 +1,21 @@
-#include <stdio.h>
+#include <iostream>
+#include <string>
 #include "beer.h"
-/**
- * This was never tested.   I don't remember C syntax well.  But you know...
- */
+
+using namespace std;
+
 int main( void ){
+  string qty_str;
   int qty;
-  printf( "How many pint of beer did you consume? : ");
-  qty = getchar();
+
+  cout << "How many pint of beer did you consume?";
+  cin >> qty_str;
+
+  qty = atoi( qty_str.c_str());
 
   bool result = beer( qty );
-  if( result == true ) printf( "You have consumed %c pint of beer.\n", qty );
+  if( result == true ) printf( "You have consumed %d pint of beer.\n", qty );
   else printf( "Do you need recommendations on where you could grab a pint?  Google it.\n" );
-  
+
   return 0;
 }
