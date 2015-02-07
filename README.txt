@@ -1,3 +1,3 @@
 #beer
 #compile like
-% gcc -o beer main.c drink.c
+% g++ -o beer main.cc drink.cc

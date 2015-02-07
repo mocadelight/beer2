@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "boolean.h"
 #include "beer.h"
 /**
  * This was never tested.   I don't remember C syntax well.  But you know...

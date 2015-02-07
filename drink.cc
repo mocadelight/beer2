@@ -1,5 +1,4 @@
 /** AUTHOR: Moca **/
-#include "boolean.h"
 #include "beer.h"
 
 bool beer( int pintqty )
